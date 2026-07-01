@@ -101,6 +101,28 @@
       background:#f6fbfa;
     }
     .conclusion h2{border-left:none;padding-left:0;margin-bottom:12px;color:var(--green)}
+
+    .home-cta{
+      margin:28px 0 0;
+      padding:26px 24px;
+      border:1px solid rgba(255,255,255,.28);
+      background:linear-gradient(135deg,rgba(255,255,255,.10),rgba(255,255,255,.04));
+      text-align:center;
+      border-radius:14px;
+    }
+    .home-cta p{margin:0 0 14px;color:#eaf3fb;line-height:1.7}
+    .home-cta a{
+      display:inline-block;
+      padding:14px 24px;
+      border-radius:999px;
+      background:#fff;
+      color:#0b2f4f;
+      font-weight:800;
+      text-decoration:none;
+      box-shadow:0 8px 22px rgba(0,0,0,.22);
+      letter-spacing:.04em;
+    }
+    .home-cta a:hover{transform:translateY(-1px);box-shadow:0 12px 26px rgba(0,0,0,.28)}
     footer{background:#0b2f4f;color:#fff;margin-top:40px}
     .footer-inner{max-width:var(--max);margin:0 auto;padding:30px 22px;font-size:.92rem;color:#e6eef5}
     .footer-inner strong{color:#fff}
@@ -109,7 +131,7 @@
       header{padding:40px 18px 28px}
       main{padding:0 18px 54px}
       h2{font-size:1.36rem}
-      .lead,.principle,.quote,.two-choice,.download,.conclusion{padding:18px 18px}
+      .lead,.principle,.quote,.two-choice,.download,.conclusion,.home-cta{padding:18px 18px}
       body{line-height:1.82}
     }
     @media print{
@@ -117,6 +139,9 @@
       a{color:#111;text-decoration:none}
       figure img{box-shadow:none}
       footer{background:#fff;color:#111;border-top:1px solid #bbb}
+      .home-cta{border:1px solid #bbb;background:#fff}
+      .home-cta p{color:#111}
+      .home-cta a{box-shadow:none;border:1px solid #111;color:#111}
       section{break-inside:auto}
       figure{break-inside:avoid}
     }
@@ -281,6 +306,10 @@
     <div class="footer-inner">
       <p><strong>発行：PTA適正化推進委員会</strong></p>
       <p>本ページは、授業時間中におけるPTA関連活動について、学校教育活動とPTA活動の区分を一次資料に基づき整理するものです。</p>
+      <div class="home-cta" aria-label="PTA適正化推進委員会ホームページへの案内">
+        <p>PTAの任意加入、公私分離、個人情報保護、会費徴収等に関する整理は、PTA適正化推進委員会ホームページで継続して公開しています。</p>
+        <a href="https://ptaorg.com/">PTA適正化推進委員会ホームページへ</a>
+      </div>
     </div>
   </footer>
 </body>
